@@ -1,0 +1,46 @@
+.App {
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: rgb(49, 48, 48);
+  height: 100vh;
+  width: 75%;
+  margin-left: 5cm;
+  margin-top: 2cm;
+
+}
+
+h3{
+
+  background-color: rgb(234, 234, 234);
+  font-size: x-large;
+  margin: 0px;
+  position: relative;
+  display: flex;
+  color: black;
+  padding: 0px 20px;
+  transition: all 0.7s ease;
+
+}
+
+h3:hover{
+
+  color: rgb(29, 28, 28);
+  background-color: rgb(125, 124, 124);
+
+}
+
+.App>div{
+
+  padding: 20px 0px;
+
+}
+
+.types{
+  
+  font-size: larger;
+  align-self: flex-start;
+
+}
